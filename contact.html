@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- header -->
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="logo" /></a>
+        <div>
+            <ul id="navbar">
+                <li class="close-btn" style="display:none;">
+                    <i class="fas fa-times"></i>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">contact</a></li>
+                <li>
+                    <a href="cart.html"><i class="fa-brands fa-shopify"></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-brands fa-shopify"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- page header -->
+    <section id="page-header">
+        <h2>Contact Us</h2>
+        <p>Have questions? We're here to help — reach out and we'll respond as soon as we can.</p>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section-p1">
+        <div class="procontainer" style="gap:28px; align-items:flex-start;">
+
+            <!-- Contact details -->
+            <div style="flex:1; min-width:280px; max-width:420px;">
+                <h3>Get in touch</h3>
+                <p style="color:rgb(132,124,124); line-height:1.7;">
+                    Whether you have a question about an order, want help choosing a product,
+                    or have feedback — send us a message and we'll be happy to assist.
+                </p>
+
+                <h4>Contact info</h4>
+                <p><strong>Address:</strong> 123 Market Street, Your City, Country</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Email:</strong> <a href="mailto:hello@example.com"
+                        style="color:#088178; text-decoration:none;">hello@example.com</a></p>
+
+                <h4>Opening hours</h4>
+                <p>Mon - Fri: 9:00 AM — 6:00 PM</p>
+                <p>Sat: 10:00 AM — 4:00 PM</p>
+                <p>Sun: Closed</p>
+
+                <div style="margin-top:18px;">
+                    <a href="shop.html" class="normal" style="text-decoration:none; display:inline-block;">Shop Now</a>
+                </div>
+            </div>
+
+            <!-- Contact form -->
+            <div style="flex:1.4; min-width:300px;">
+                <h3>Send us a message</h3>
+                <form id="contactForm" action="#" method="post" style="display:flex; flex-direction:column; gap:10px;">
+                    <input type="text" name="name" id="name" placeholder="Your name" required
+                        style="padding:10px; border-radius:6px; border:1px solid #ccc;">
+                    <input type="email" name="email" id="email" placeholder="Your email" required
+                        style="padding:10px; border-radius:6px; border:1px solid #ccc;">
+                    <input type="text" name="subject" id="subject" placeholder="Subject"
+                        style="padding:10px; border-radius:6px; border:1px solid #ccc;">
+                    <textarea name="message" id="message" rows="6" placeholder="Your message" required
+                        style="padding:10px; border-radius:6px; border:1px solid #ccc; resize:vertical;"></textarea>
+
+                    <div style="display:flex; gap:10px; align-items:center;">
+                        <button type="submit" class="normal" style="padding:12px 20px;">Send Message</button>
+                        <button type="reset"
+                            style="padding:12px 20px; background:transparent; border:1px solid #088178; color:#088178; border-radius:6px; cursor:pointer;">Reset</button>
+                    </div>
+
+                    <div id="formStatus" style="color:#088178; font-weight:600; margin-top:6px; display:none;"></div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Map / location -->
+        <div style="margin-top:28px;">
+            <!-- Replace the src with your Google Maps embed if you want a live map -->
+            <iframe title="store-location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.08677812345!2d-122.4194151846816!3d37.77492977975909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c2f0b1c1d%3A0x0!2zMzfCsDQ2JzMwLjAiTiAxMjLCsDI1JzA5LjQiVw!5e0!3m2!1sen!2sus!4v1610000000000!5m2!1sen!2sus"
+                width="100%" height="320" style="border:0; border-radius:12px;" allowfullscreen=""
+                loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- newsletter -->
+    <section id="newsletter" class="section-p1" style="margin-top:28px;">
+        <div class="newstxt">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get email updates about our latest shop and <span>special offers</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email-address">
+            <button class="normal">Signup</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address</strong>: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p><strong>Phone</strong>: Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p><strong>Hours</strong>: Lorem ipsum dolor sit amet.</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, non.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/9cf067a3a0.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

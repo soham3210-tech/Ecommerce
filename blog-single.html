@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Blog Post - Example</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- reuse header -->
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="" /></a>
+        <div>
+            <ul id="navbar">
+                <li class="close-btn" style="display:none;">
+                    <i class="fas fa-times"></i>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="cart.html"><i class="fa-brands fa-shopify"></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-brands fa-shopify"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>Blog Post Title</h2>
+        <p>By Admin • April 5, 2026</p>
+    </section>
+
+    <main class="section-p1">
+        <article style="max-width:900px; margin: 0 auto;">
+            <img src="img/blog/b1.jpg" alt="" style="width:100%; border-radius:12px; margin-bottom:18px;">
+            <h2>5 Tips to Keep Your T-Shirts Looking New</h2>
+            <p style="color:rgb(132,124,124); line-height:1.6;">
+                1. Wash Inside Out
+
+                Turn your T-shirts inside out before washing.
+
+                This protects the print, color, and fabric from friction with other clothes and the washing machine
+                drum. <br>
+
+                2. Use Cold Water
+
+                Wash in cold water instead of hot water.
+
+                Hot water can fade colors, shrink fabric, and weaken fibers over time. <br>
+
+                3. Avoid Harsh Detergents & Bleach
+
+                Use a mild detergent specifically for colored clothes.
+
+                Avoid bleach unless it’s a white T-shirt—harsh chemicals can damage the fabric and color. <br>
+
+                4. Air Dry Instead of Machine Dry
+
+                Heat from dryers can shrink T-shirts and wear out the fibers.
+
+                Hang them to dry naturally, preferably away from direct sunlight to prevent fading. <br>
+
+                5. Store Properly
+
+                Fold T-shirts neatly instead of hanging if they are heavy or stretchy, to avoid shoulder stretching.
+
+                Keep them in a cool, dry place to prevent mold or yellowing. <br>
+
+                💡 Bonus Tip: Don’t wash T-shirts after every single wear unless they’re sweaty or dirty. Over-washing
+                can fade colors and stretch fabric faster.
+                <br>
+            </p>
+
+            <p><a href="blog.html" style="color:#088178; font-weight:700; text-decoration:none;">← Back to blog</a></p>
+        </article>
+    </main>
+
+    <!-- reuse newsletter + footer -->
+    <section id="newsletter" class="section-p1">
+        <div class="newstxt">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get email updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email-address">
+            <button class="normal">Signup</button>
+        </div>
+    </section>
+
+    <!-- footer (same as site) -->
+    <footer class="section-p1">
+        <!-- (copy footer content from blog.html or other pages) -->
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address</strong>: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p><strong>Phone</strong>: Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p><strong>Hours</strong>: Lorem ipsum dolor sit amet.</p>
+        </div>
+        <!-- ...other footer columns... -->
+    </footer>
+
+    <script src="https://kit.fontawesome.com/9cf067a3a0.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
